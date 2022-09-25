@@ -36,14 +36,6 @@ section {
     position: relative;
 }
 
-#intro {
-    background-color: #edede9;
-}
-
-#conclusion {
-    background-color: #f5ebe0;
-}
-
 .centered-page {
     text-align: center;
     align-items: center;
@@ -55,28 +47,12 @@ section {
     bottom: 0;
 }
 
-#tech {
-    background-color: #f5ebe0;
-}
-
-#yandex-lyceum-1 {
+.bg-light {
     background-color: #edede9;
 }
 
-#yandex-lyceum-2 {
-    background-color: #edede9;
-}
-
-#future-scientists {
+.bg-dark {
     background-color: #f5ebe0;
-}
-
-#new-horizons {
-    background-color: #f5ebe0;
-}
-
-#java { 
-    background-color: #edede9;
 }
 
 .text-page {
@@ -92,7 +68,7 @@ section {
 }
 
 .text-page p {
-    font-weight: bold;
+    text-indent: 4vmax;
 }
 
 .text-page ul {
