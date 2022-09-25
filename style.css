@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #271c16;
+}
+
+h1 {
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+    font-size: 6vmax;
+    color: #875e45;
+}
+
+a {
+    color: #875e45;
+}
+
+p, span, ul, li {
+    font-family: "PT Mono", sans-serif;
+    font-size: 2vmax;
+    color: #98735d;
+    list-style: circle;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.flexbox {
+    display: flex;
+    position: relative;
+}
+
+#intro {
+    background-color: #edede9;
+}
+
+#conclusion {
+    background-color: #f5ebe0;
+}
+
+.centered-page {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    position: absolute;
+    bottom: 0;
+}
+
+#tech {
+    background-color: #f5ebe0;
+}
+
+#yandex-lyceum-1 {
+    background-color: #edede9;
+}
+
+#yandex-lyceum-2 {
+    background-color: #edede9;
+}
+
+#future-scientists {
+    background-color: #f5ebe0;
+}
+
+#new-horizons {
+    background-color: #f5ebe0;
+}
+
+#java { 
+    background-color: #edede9;
+}
+
+.text-page {
+    align-items: center;
+    justify-content: start;
+    text-align: justify;
+}
+
+.text-page p, ul {
+    padding-right: 1em;
+    padding-left: 1em;
+    align-self: start;
+}
+
+.text-page p {
+    font-weight: bold;
+}
+
+.text-page ul {
+    margin-left: 1em;
+}
+
+ul li {
+    color: #98735d;
+    list-style-type: disc;
+}
+
+.fullpage-scrollable {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.cols {
+    flex-direction: column;
+}
