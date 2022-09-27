@@ -20,7 +20,7 @@ a {
 }
 
 p, span, ul, li {
-    font-family: "PT Mono", sans-serif;
+    font-family: "PT Sans", sans-serif;
     font-size: 2vmax;
     color: #98735d;
     list-style: circle;
